@@ -1,0 +1,110 @@
+body {
+    font-family: Open sans, sans-serif;
+    
+}
+
+.header {
+    height: 100px;
+    color: #000;
+    border-bottom: 1px solid #000; 
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+h1 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    h1 {
+    font-size: 36px;
+    }
+}
+
+
+section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.card {
+    max-height: 100%;
+    margin: 10px;
+    border: 1px solid #000;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media (max-width: 768px) {
+    card {
+    margin: 20px 10px;
+    display: block;
+    }
+}
+
+.card img {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+@media (max-width: 768px) {
+    card img {
+        height: 100%;
+        width: 100%;
+    }
+}
+.card details {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    
+}
+@media (max-width: 768px) {
+  .card details {
+        width: 100%;
+    }
+}
+
+
+.card details summary {
+    font-size: 18px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .card details summary {
+         font-size: 16px;
+    }
+}
+
+.card p {
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .card details p {
+         font-size: 14px;
+    }
+}
+
+.card blockquote {
+    color: #777;
+    font-style: italic;
+}
+
+
+   
+    
+
+  
+
+    
